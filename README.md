@@ -67,3 +67,10 @@ Go to Path in environment variables and add
 
 ### Finally Go to the terminal Type ```pyspark```
 and you will see Pyspark is setup and a new jupyter notebook will open with it
+
+---
+
+Some references to help you setup 
+
+1. https://www.youtube.com/watch?v=cYL42BBL3Fo
+2. https://www.youtube.com/watch?v=Xce3hccNf_c
