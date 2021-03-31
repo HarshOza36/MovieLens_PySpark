@@ -4,64 +4,71 @@ MovieLens Dataset analysis using Hadoop and Pyspark
 ## How to Run
 
  - Install Jupyter notebook
-```pip install jupyter```
+   
+   ```pip install jupyter```
 
-Now just write ```jupyter notebook``` in your command prompt and you will see a notebook opening in your localhost
+    Now just write ```jupyter notebook``` in your command prompt and you will see a notebook opening in your localhost
 
 
 - Install Java
-Download Java and install it in your computer
 
-Add Java to the path
+  Download Java and install it in your computer
 
-Go to Program files > Java > jdk > bin
+  Add Java to the path
 
-Copy the path
+  Go to Program files > Java > jdk > bin
 
-Go to environment variables and paste this in User variables ```"Path"```
+  Copy the path
+
+  Go to environment variables and paste this in User variables ```"Path"```
 
 - Setup Java
-Add "JAVA_HOME" variable to environment variables
 
-Go to Program files > Java > jdk
+  Add "JAVA_HOME" variable to environment variables
 
-Copy the path and paste it in JAVA_HOME variable
+  Go to Program files > Java > jdk
+  
+  Copy the path and paste it in JAVA_HOME variable
 
 - Setup Hadoop
-Add ```"HADOOP_HOME"``` to environment variables
 
-In the git repo there is hadoop folder
+  Add ```"HADOOP_HOME"``` to environment variables
 
-Copy the link to that folder
+  In the git repo there is hadoop folder
 
-Add it to HADOOP_HOME variable
+  Copy the link to that folder
+
+  Add it to HADOOP_HOME variable
 
 - Setup Spark
-Add ```"SPARK_HOME"``` to environment variables
 
-In the git repo there is spark zip
+  Add ```"SPARK_HOME"``` to environment variables
 
-Unzip that 
+  In the git repo there is spark zip
 
-Copy the link to that folder
+  Unzip that 
 
-Add it to ```SPARK_HOME``` variable
+  Copy the link to that folder
+
+  Add it to ```SPARK_HOME``` variable
 
 - Setup Pyspark
-Setting up Pyspark variables
 
-Go to environment variables and add these two 
+  Setting up Pyspark variables
 
-```PYSPARK_DRIVER_PYTHON``` with value ```jupyter```
+  Go to environment variables and add these two 
 
-```PYSPARK_DRIVER_PYTHON_OPTS``` with value  ```notebook```
+  ```PYSPARK_DRIVER_PYTHON``` with value ```jupyter```
+
+  ```PYSPARK_DRIVER_PYTHON_OPTS``` with value  ```notebook```
 
 - Final Path setup
-Go to Path in environment variables and add
 
-```%SPARK_HOME%\bin```
+  Go to Path in environment variables and add
 
-```%HADOOP_HOME%\bin```
+  ```%SPARK_HOME%\bin```
+
+  ```%HADOOP_HOME%\bin```
 
 
 
